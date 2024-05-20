@@ -1,0 +1,44 @@
+ 
+  /* home Section begin */
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    
+  }
+  body{
+     font-family: 'rubik';
+     font-weight: 500;
+     font-size: 16px;
+  }
+   /* navbar section begin */
+  .logo-1{
+     font-family: 'rubik';
+     font-weight: 500;
+  }
+  .logo-2 {
+     font-family: 'rubik';
+     font-weight: 700;
+     font-size: 20px;
+  }
+  .sign_in{
+   font-weight: 500;
+   text-decoration: none;
+   color: #0B132A;
+  }
+  .sign_up{
+   font-weight: 500;
+   text-decoration: none;
+   padding: 13px 45px;
+   color:  #F53855;
+   border-radius: 50px;
+   border: 1px solid #F53855;
+   transition: 0.4s;
+  }
+  .sign_up:hover{
+   background-color: #F53855;
+   color: white;
+  }
+ 
+  /* navbar section end */
+   /* home Section end */
