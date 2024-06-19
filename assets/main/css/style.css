@@ -21,6 +21,7 @@
   .logo-1{
      font-family: 'rubik';
      font-weight: 500;
+     color: #0B132A;
   }
   .logo-2 {
      font-family: 'rubik';
@@ -222,13 +223,93 @@
 .message{
    color: rgba(11, 19, 42, 1);
 }
-.comment-page .caruosel
+.comment-page .carousel-control-prev-icon,
+.comment-page .carousel-control-next-icon {
+     display: none;
+}
+.comment-page .carousel-control-prev,
+.comment-page .carousel-control-next {
+     position: static;
+     background-image: url("../images/prev_arrow.svg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: #fff;
+     border: 2px solid #F53838;
+     border-radius: 50%;
+     padding: 26px;
+     width: 30px;
+     height: 30px;
+     margin: 10px;
+}
+
+.comment-page .carousel-control-prev:hover,
+.comment-page .carousel-control-next:hover {
+     background-color: #F53838;
+     background-image: url("../images/next_arrow.svg");
+     rotate: 360deg;
+}
+.comment-page .carousel-control-next {
+   rotate: 180deg;
+}
+
+.text_resize_1{
+   width: 65%;
+   }
 /* ---------------------------- comment Section End ---------------------------- */
+
+/* -------footer section begin------- */
+footer {
+   background-color: #f8f8f8;
+}
+.icon{
+   font-size: 20px;
+   color: #F53838;
+   transition: 0.7;
+}
+.social{
+   display: inline;
+   padding: 10px;
+   border-radius: 50%;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+   justify-content: center;
+   align-items: center;
+}
+.social:hover{
+   background-color: #f0f0f0;
+}
+.cpoyrigt{
+   color: #AFB5C0;
+}
+.footer_head{
+   font-weight: 500;
+   color: #0B132A;
+   
+   font-size: 18px;
+}
+.footer_link{
+   text-decoration: none;
+   color: #4F5665;
+   display: block;
+}
+.footer_link:hover{
+   text-decoration: underline;
+   color: #3a3f44;
+}
+
+
+/* ----------------footer section begin-------------- */
    @media screen and (max-width: 768px) {
       .home{
          height: 100% !important;
       }
       
      }
+     .text_resize{
+      width: 100%;
+     }
+     .text_resize_1{
+      width: 100%;
+     }
+
  
      
